@@ -1,0 +1,14 @@
+.button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #3a3a3a;
+    min-width: 240px;
+    background-color: #b7b7b7;
+    margin-top: 10px;
+    border: none;
+
+    outline: none;
+}
+
+.button-primary {
+}
