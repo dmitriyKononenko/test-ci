@@ -17,7 +17,7 @@ const Button = ({ children, onClick, disabled }) => {
 	return (
 		<button
 			className={`button button-${disabled ? 'disabled' : 'primary'}`}
-			onClick={!disabled ? onClick : undefined}
+			onClick={!disabled ? undefined : undefined}
 		>
 			{children}
 		</button>
